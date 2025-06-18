@@ -1,8 +1,8 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 426
+  Caption = 'Delphi AI'
+  ClientHeight = 390
   ClientWidth = 691
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,14 +13,14 @@ object Form1: TForm1
   TextHeight = 15
   object Label1: TLabel
     Left = 40
-    Top = 304
+    Top = 278
     Width = 43
     Height = 15
     Caption = 'API Key:'
   end
   object Label2: TLabel
     Left = 13
-    Top = 333
+    Top = 299
     Width = 70
     Height = 15
     Caption = 'Your Prompt:'
@@ -34,14 +34,14 @@ object Form1: TForm1
   end
   object edtAPIKey: TEdit
     Left = 89
-    Top = 304
-    Width = 121
+    Top = 275
+    Width = 264
     Height = 23
     TabOrder = 0
   end
   object memoPrompt: TMemo
     Left = 89
-    Top = 333
+    Top = 304
     Width = 594
     Height = 52
     Lines.Strings = (
@@ -50,7 +50,7 @@ object Form1: TForm1
   end
   object btnSendPrompt: TButton
     Left = 89
-    Top = 391
+    Top = 362
     Width = 101
     Height = 25
     Caption = 'Send'
